@@ -1,6 +1,13 @@
-<link rel="stylesheet" type="text/css" href="build/build.css"/>
-<script src="build/build.js"></script>
-<script>
-  var hw = require('color-cycle');
-  hw();
-</script>
+<html>
+  <body>
+    <link rel="stylesheet" type="text/css" href="build/build.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="build/build.js"></script>
+    <script>
+      var cc = require('color-cycle');
+      var elem = $(cc.getHtml());
+      $('body').append(elem);
+      cc.setup();
+    </script>
+  </body>
+</html>

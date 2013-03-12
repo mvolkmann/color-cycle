@@ -1,8 +1,8 @@
 var html = require('./template');
 
-module.exports = function () {
-  document.write(html);
+function getHtml() { return html; }
 
+function setup() {
   var colorIndex = 0;
   var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
 
@@ -13,3 +13,8 @@ module.exports = function () {
     block.style.backgroundColor = colors[colorIndex];
   }
 }
+
+module.exports = {
+  getHtml: getHtml,
+  setup: setup
+};
