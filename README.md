@@ -1,6 +1,7 @@
 # color-cycle
 
   A test of the component tool from TJ Holowaychuk.
+  For an example of using this, see the mvolkmann/component-app repo.
 
 ## Installation
 
