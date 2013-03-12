@@ -1,4 +1,15 @@
-color-cycle
-===========
+# color-cycle
 
-A demo component using TJ Holowaychuk's "component" framework
+  A test of the component tool from TJ Holowaychuk.
+
+## Installation
+
+    $ component install mvolkmann/color-cycle
+
+## API
+
+   
+
+## License
+
+  MIT

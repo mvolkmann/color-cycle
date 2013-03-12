@@ -1,0 +1,19 @@
+{
+  "name": "color-cycle",
+  "repo": "mvolkmann/color-cycle",
+  "description": "A test of the component tool from TJ Holowaychuk.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "color-cycle.css"
+  ]
+}

@@ -1,0 +1,1 @@
+module.exports = '<div id="color-block">\n  <button id="color-change">Change</button>\n</div>\n';

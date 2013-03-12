@@ -1,0 +1,6 @@
+#color-block {
+  background-color: red;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
